@@ -1,0 +1,5 @@
+刷新总分时不能实现连加。
+解决方法：
+this->numericUpDown5->Value = (int)this->numericUpDown2->Value +
+(int)this->numericUpDown3->Value  +(int)this->numericUpDown4->Value;
+“=”号右边各项强转为int类型进行计算。

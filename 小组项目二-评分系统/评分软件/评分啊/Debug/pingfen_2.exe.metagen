@@ -1,0 +1,93 @@
+  pingfen_2.Award.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Form1.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Form_sm1.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Form_sm2.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Mark.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Mark_sm.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Pubish.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Publish_sm.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Rank.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Score.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Start.resources - Embedded, ContainedInManifestFile, 
+  pingfen_2.Start_sm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly pingfen_2, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class pingfen_2.Award: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class pingfen_2.Form_sm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class pingfen_2.Form_sm2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Stu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String[] strName : Public
+    Single[] fScore : Public
+    Single[] gScore : Public
+Class pingfen_2.Rank: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class pingfen_2.Score: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label3 : Public
+    System.Windows.Forms.Label label4 : Public
+    System.Windows.Forms.Label label5 : Public
+    System.Windows.Forms.Label label6 : Public
+    Stu thestu : Public
+Class pingfen_2.Publish_sm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class pingfen_2.Pubish: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.Label label2 : Public
+Class pingfen_2.Mark_sm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class pingfen_2.Mark: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label1 : Public
+    Int32 xuanshou : Public
+    Stu thestu : Public
+Class pingfen_2.Start_sm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class pingfen_2.Start: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TabPage tabPage1 : Public
+    System.Windows.Forms.TabPage tabPage2 : Public
+    System.Windows.Forms.TabPage tabPage3 : Public
+    System.Windows.Forms.TabPage tabPage4 : Public
+    Stu thestu : Public
+    Int32 sec : Public
+    Int32 min : Public
+    Stu[] stu : Public
+Class pingfen_2.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Stu thestu : Public

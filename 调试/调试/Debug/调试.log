@@ -1,0 +1,30 @@
+﻿生成启动时间为 2019/10/6 15:26:09。
+     1>项目“F:\VS2013\程序\严某C++\调试\调试\调试.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS2013\安装目录\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\调试.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib stdafx.cpp
+         stdafx.cpp
+         F:\VS2013\安装目录\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\调试.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp "调试.cpp"
+         AssemblyInfo.cpp
+         调试.cpp
+     1>调试.cpp(37): error C2065: “MessageBoxButtons”: 未声明的标识符
+     1>调试.cpp(37): error C2146: 语法错误: 缺少“;”(在标识符“buttons”的前面)
+     1>调试.cpp(37): error C2065: “buttons”: 未声明的标识符
+     1>调试.cpp(37): error C2653: “MessageBoxButtons”: 不是类或命名空间名称
+     1>调试.cpp(37): error C2065: “YesNo”: 未声明的标识符
+     1>调试.cpp(39): error C3083: “Forms”:“::”左侧的符号必须是一种类型
+     1>调试.cpp(39): error C3083: “DialogResult”:“::”左侧的符号必须是一种类型
+     1>调试.cpp(39): error C2039: “Yes”: 不是“System::Windows”的成员
+     1>调试.cpp(39): error C2065: “Yes”: 未声明的标识符
+     1>调试.cpp(41): error C2653: “MessageBox”: 不是类或命名空间名称
+     1>调试.cpp(45): error C2065: “buttons”: 未声明的标识符
+     1>调试.cpp(47): error C2653: “MessageBoxIcon”: 不是类或命名空间名称
+     1>调试.cpp(47): error C2065: “Question”: 未声明的标识符
+     1>调试.cpp(49): error C2653: “MessageBoxDefaultButton”: 不是类或命名空间名称
+     1>调试.cpp(49): error C2065: “Button1”: 未声明的标识符
+     1>调试.cpp(41): error C3861: “Show”:  找不到标识符
+         正在生成代码...
+     1>已完成生成项目“F:\VS2013\程序\严某C++\调试\调试\调试.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.90

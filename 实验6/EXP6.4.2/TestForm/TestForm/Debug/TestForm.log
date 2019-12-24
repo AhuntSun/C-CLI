@@ -1,0 +1,60 @@
+﻿生成启动时间为 2019/12/19 20:11:02。
+     1>项目“F:\VS2013\程序\严某C++CLI\实验6\EXP6.4.2\TestForm\TestForm\TestForm.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS2013\安装目录\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\TestForm.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib stdafx.cpp
+         stdafx.cpp
+         F:\VS2013\安装目录\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestForm.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp TestForm.cpp
+         AssemblyInfo.cpp
+     1>AssemblyInfo.cpp(40): warning C4947: “RequestMinimum”: 标记为已过时
+                 消息: “Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.”
+         TestForm.cpp
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(79): error C2059: 语法错误:“namespace”
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(79): error C2238: 意外的标记位于“;”之前
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(82): error C2146: 语法错误: 缺少“;”(在标识符“dr”的前面)
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(82): error C2065: “dr”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): error C2065: “dr”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): warning C4832: 标记“.”在 UDT“System::Windows::Forms::MessageBox”之后是非法的
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.windows.forms.dll : 参见“System::Windows::Forms::MessageBox”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): error C2275: “System::Windows::Forms::MessageBox”: 将此类型用作表达式非法
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.windows.forms.dll : 参见“System::Windows::Forms::MessageBox”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): error C2228: “.Show”的左边必须有类/结构/联合
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): warning C4832: 标记“.”在 UDT“System::Windows::Forms::MessageBoxButtons”之后是非法的
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.windows.forms.dll : 参见“System::Windows::Forms::MessageBoxButtons”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): error C2275: “System::Windows::Forms::MessageBoxButtons”: 将此类型用作表达式非法
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.windows.forms.dll : 参见“System::Windows::Forms::MessageBoxButtons”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): error C2039: “YesNoCancel”: 不是“System::Enum”的成员
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : 参见“System::Enum”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): warning C4832: 标记“.”在 UDT“System::Windows::Forms::MessageBoxIcon”之后是非法的
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.windows.forms.dll : 参见“System::Windows::Forms::MessageBoxIcon”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): error C2275: “System::Windows::Forms::MessageBoxIcon”: 将此类型用作表达式非法
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.windows.forms.dll : 参见“System::Windows::Forms::MessageBoxIcon”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): error C2039: “Warning”: 不是“System::Enum”的成员
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : 参见“System::Enum”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): warning C4832: 标记“.”在 UDT“System::Windows::Forms::MessageBoxDefaultButton”之后是非法的
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.windows.forms.dll : 参见“System::Windows::Forms::MessageBoxDefaultButton”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): error C2275: “System::Windows::Forms::MessageBoxDefaultButton”: 将此类型用作表达式非法
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.windows.forms.dll : 参见“System::Windows::Forms::MessageBoxDefaultButton”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(84): error C2039: “Button1”: 不是“System::Enum”的成员
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : 参见“System::Enum”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(86): error C2065: “dr”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(86): error C2039: “Yes”: 不是“System::Enum”的成员
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : 参见“System::Enum”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(88): error C2143: 语法错误 : 缺少“;”(在“.”的前面)
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(90): error C2181: 没有匹配 if 的非法 else
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(90): error C2065: “dr”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(90): error C2039: “No”: 不是“System::Enum”的成员
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : 参见“System::Enum”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(92): error C2143: 语法错误 : 缺少“;”(在“.”的前面)
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(94): error C2181: 没有匹配 if 的非法 else
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(94): error C2065: “dr”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(94): error C2039: “Cancel”: 不是“System::Enum”的成员
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : 参见“System::Enum”的声明
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(96): error C2143: 语法错误 : 缺少“;”(在“.”的前面)
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(98): error C2181: 没有匹配 if 的非法 else
+     1>f:\vs2013\程序\严某c++cli\实验6\exp6.4.2\testform\testform\Form1.h(100): error C2143: 语法错误 : 缺少“;”(在“.”的前面)
+         正在生成代码...
+     1>已完成生成项目“F:\VS2013\程序\严某C++CLI\实验6\EXP6.4.2\TestForm\TestForm\TestForm.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.92

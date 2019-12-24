@@ -1,0 +1,138 @@
+﻿生成启动时间为 2019/12/17 22:10:16。
+     1>项目“F:\VS2013\程序\严某C++CLI\实验8\学生成绩2\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS2013\安装目录\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\WindowsFormsApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib WindowsFormsApplication1.cpp
+         WindowsFormsApplication1.cpp
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(606): error C2065: “InputDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(606): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(606): error C2061: 语法错误: 标识符“InputDlg”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(607): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(607): error C2227: “->ShowDialog”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(609): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(609): error C2227: “->textBox2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(609): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(609): error C2227: “->Trim”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(624): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(624): error C2227: “->numericUpDown1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(624): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(624): error C2664: “System::Windows::Forms::TreeNode::TreeNode(const System::Windows::Forms::TreeNode %)”: 无法将参数 1 从“int”转换为“System::String ^”
+                 没有用户定义的转换运算符，或者
+                 不存在从装箱形式的算术类型到目标类型的标准转换
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(625): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(625): error C2227: “->numericUpDown2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(625): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(625): error C2664: “System::Windows::Forms::TreeNode::TreeNode(const System::Windows::Forms::TreeNode %)”: 无法将参数 1 从“int”转换为“System::String ^”
+                 没有用户定义的转换运算符，或者
+                 不存在从装箱形式的算术类型到目标类型的标准转换
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(626): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(626): error C2227: “->numericUpDown3”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(626): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(626): error C2664: “System::Windows::Forms::TreeNode::TreeNode(const System::Windows::Forms::TreeNode %)”: 无法将参数 1 从“int”转换为“System::String ^”
+                 没有用户定义的转换运算符，或者
+                 不存在从装箱形式的算术类型到目标类型的标准转换
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(631): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(631): error C2227: “->textBox1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(631): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(631): error C2664: “System::Windows::Forms::TreeNode::TreeNode(const System::Windows::Forms::TreeNode %)”: 无法将参数 1 从“int”转换为“System::String ^”
+                 没有用户定义的转换运算符，或者
+                 不存在从装箱形式的算术类型到目标类型的标准转换
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(637): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(637): error C2227: “->textBox1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(637): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(637): error C2664: “System::Windows::Forms::ListViewItem::ListViewItem(const System::Windows::Forms::ListViewItem %)”: 无法将参数 1 从“int”转换为“System::String ^”
+                 没有用户定义的转换运算符，或者
+                 不存在从装箱形式的算术类型到目标类型的标准转换
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(638): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(638): error C2227: “->textBox2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(638): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(639): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(639): error C2227: “->numericUpDown1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(639): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(640): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(640): error C2227: “->numericUpDown2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(640): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(641): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(641): error C2227: “->numericUpDown3”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(641): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(720): error C2065: “InputDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(720): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(720): error C2061: 语法错误: 标识符“InputDlg”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(721): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(721): error C2227: “->textBox1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(721): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(722): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(722): error C2227: “->textBox2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(722): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(724): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(724): error C2227: “->textBox2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(724): error C2227: “->Enabled”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(726): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(726): error C2227: “->numericUpDown1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(726): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(728): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(728): error C2227: “->numericUpDown2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(728): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(730): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(730): error C2227: “->numericUpDown3”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(730): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(731): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(731): error C2227: “->ShowDialog”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(732): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(732): error C2227: “->textBox1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(732): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(734): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(734): error C2227: “->numericUpDown1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(734): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(736): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(736): error C2227: “->numericUpDown2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(736): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(738): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(738): error C2227: “->numericUpDown3”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(738): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(747): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(747): error C2227: “->textBox1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(747): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(748): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(748): error C2227: “->textBox2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(748): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(749): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(749): error C2227: “->numericUpDown1”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(749): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(750): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(750): error C2227: “->numericUpDown2”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(750): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(751): error C2065: “pDlg”: 未声明的标识符
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(751): error C2227: “->numericUpDown3”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>f:\vs2013\程序\严某c++cli\实验8\学生成绩2\windowsformsapplication1\windowsformsapplication1\Form1.h(751): error C2227: “->Text”的左边必须指向类/结构/联合/泛型类型
+     1>已完成生成项目“F:\VS2013\程序\严某C++CLI\实验8\学生成绩2\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.22

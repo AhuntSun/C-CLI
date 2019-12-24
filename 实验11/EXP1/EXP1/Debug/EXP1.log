@@ -1,0 +1,27 @@
+﻿生成启动时间为 2019/11/16 22:05:22。
+     1>项目“F:\VS2013\程序\严某C++CLI\实验11\EXP1\EXP1\EXP1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS2013\安装目录\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\EXP1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib EXP1.cpp
+         EXP1.cpp
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(24): error C2337: “Struct”: 未找到特性
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(24): error C2146: 语法错误: 缺少“]”(在标识符“Layout”的前面)
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(24): error C2061: 语法错误: 标识符“Sequential”
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(24): error C2143: 语法错误 : 缺少“;”(在“]”的前面)
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(24): error C2059: 语法错误:“]”
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(28): error C3156: “SHFILEINFO”: 不能局部定义 托管 类型
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(28): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(28): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(48): error C2337: “Dll”: 未找到特性
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(48): error C2146: 语法错误: 缺少“]”(在标识符“Import”的前面)
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(48): error C2059: 语法错误:“字符串”
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(48): error C2143: 语法错误 : 缺少“;”(在“]”的前面)
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(48): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(48): error C2059: 语法错误:“]”
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(57): error C3156: “Form1”: 不能局部定义 托管 类型
+     1>f:\vs2013\程序\严某c++cli\实验11\exp1\exp1\Form1.h(57): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“F:\VS2013\程序\严某C++CLI\实验11\EXP1\EXP1\EXP1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.58

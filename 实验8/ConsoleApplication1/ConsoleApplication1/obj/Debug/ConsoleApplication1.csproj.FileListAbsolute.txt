@@ -1,0 +1,2 @@
+F:\VS2013\程序\严某C++CLI\实验8\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+F:\VS2013\程序\严某C++CLI\实验8\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

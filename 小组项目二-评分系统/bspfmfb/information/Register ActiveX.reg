@@ -1,0 +1,70 @@
+REGEDIT4
+
+; ActiveX DLLs
+
+[HKEY_CLASSES_ROOT\.dll]
+@="dllfile"
+
+[HKEY_CLASSES_ROOT\dllfile\shell\regdll]
+@="×¢²á DLL ÎÄ¼þ"
+
+[HKEY_CLASSES_ROOT\dllfile\shell\regdll\command]
+@="regsvr32.exe \"%L\""
+
+[HKEY_CLASSES_ROOT\dllfile\shell\unregdll]
+@="Ð¶ÔØ DLL ÎÄ¼þ"
+
+[HKEY_CLASSES_ROOT\dllfile\shell\unregdll\command]
+@="regsvr32.exe /u \"%L\""
+
+; ActiveX Controls
+
+[HKEY_CLASSES_ROOT\.ocx]
+@="ocxfile"
+
+[HKEY_CLASSES_ROOT\ocxfile\shell\regocx]
+@="×¢²á OCX ¿Ø¼þ"
+
+[HKEY_CLASSES_ROOT\ocxfile\shell\regocx\command]
+@="regsvr32.exe \"%L\""
+
+[HKEY_CLASSES_ROOT\ocxfile\shell\unregocx]
+@="Ð¶ÔØ OCX ¿Ø¼þ"
+
+[HKEY_CLASSES_ROOT\ocxfile\shell\unregocx\command]
+@="regsvr32.exe /u \"%L\""
+
+; ActiveX EXEs
+
+[HKEY_CLASSES_ROOT\.exe]
+@="exefile"
+
+[HKEY_CLASSES_ROOT\exefile\shell\regexe]
+@="×¢²á ActiveX EXE"
+
+[HKEY_CLASSES_ROOT\exefile\shell\regexe\command]
+@="\"%L\" /regserver"
+
+[HKEY_CLASSES_ROOT\exefile\shell\unregexe]
+@="Ð¶ÔØ Active EXE"
+
+[HKEY_CLASSES_ROOT\exefile\shell\unregexe\command]
+@="\"%L\" /unregserver"
+
+
+; TypeLibraries
+
+[HKEY_CLASSES_ROOT\.tlb]
+@="tlbfile"
+
+[HKEY_CLASSES_ROOT\tlbfile\shell\regtlb]
+@="×¢²áÀàÐÍ¿â"
+
+[HKEY_CLASSES_ROOT\tlbfile\shell\regtlb\command]
+@="REGTLIB.EXE \"%L\""
+
+[HKEY_CLASSES_ROOT\tlbfile\shell\unregtlb]
+@="Ð¶ÔØÀàÐÍ¿â"
+
+[HKEY_CLASSES_ROOT\tlbfile\shell\unregtlb\command]
+@="REGTLIB.EXE /u \"%L\""

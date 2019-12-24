@@ -1,0 +1,9 @@
+F:\VS2013\程序\严某C#\实验7\C#EXP7.4\Test\Test\bin\Debug\Test.exe.config
+F:\VS2013\程序\严某C#\实验7\C#EXP7.4\Test\Test\bin\Debug\Test.exe
+F:\VS2013\程序\严某C#\实验7\C#EXP7.4\Test\Test\bin\Debug\Test.pdb
+F:\VS2013\程序\严某C#\实验7\C#EXP7.4\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+F:\VS2013\程序\严某C#\实验7\C#EXP7.4\Test\Test\obj\Debug\Test.Form1.resources
+F:\VS2013\程序\严某C#\实验7\C#EXP7.4\Test\Test\obj\Debug\Test.Properties.Resources.resources
+F:\VS2013\程序\严某C#\实验7\C#EXP7.4\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+F:\VS2013\程序\严某C#\实验7\C#EXP7.4\Test\Test\obj\Debug\Test.exe
+F:\VS2013\程序\严某C#\实验7\C#EXP7.4\Test\Test\obj\Debug\Test.pdb
